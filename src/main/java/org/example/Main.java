@@ -14,7 +14,7 @@ public class Main {
         int num, exp;
 
         do{
-            System.out.println("Operation:\n");
+            System.out.println("Operation: \n");
             System.out.println("1. Add");
             System.out.println("2. Subtract");
             System.out.println("3. Power");
