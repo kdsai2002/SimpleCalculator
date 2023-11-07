@@ -6,3 +6,11 @@
 
 2023-11-07 00:09:39.292 [main] INFO  org.example.Main - Executing percentile operation for 2 and 5. Result: 2
 
+2023-11-07 20:09:28.347 [main] INFO  org.example.Main - Executing subtraction operation for 3 and 2. Result: 1
+
+2023-11-07 20:09:28.350 [main] INFO  org.example.Main - Executing addition operation for 4 and 6. Result: 10
+
+2023-11-07 20:09:28.351 [main] INFO  org.example.Main - Executing multiplication operation for 4 and 2. Result: 8
+
+2023-11-07 20:09:28.351 [main] INFO  org.example.Main - Executing percentile operation for 1 and 5. Result: 1
+
