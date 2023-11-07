@@ -10,36 +10,36 @@ public class CalculatorTest {
     }
     @Test
     public void test_add() {
-        int a = 2;
-        int aa = 2;
-        int expectedResult = 4;
+        int a = 4;
+        int aa = 6;
+        int expectedResult = 10;
         int result = calculator.add(a,aa);
         Assert.assertEquals(expectedResult, result);
     }
 
     @Test
     public void test_subt() {
-        int a = 2;
+        int a = 3;
         int aa = 2;
-        int expectedResult = 0;
+        int expectedResult = 1;
         int result = calculator.subt(a,aa);
         Assert.assertEquals(expectedResult, result);
     }
 
     @Test
     public void test_mul() {
-        int a = 2;
+        int a = 4;
         int aa = 2;
-        int expectedResult = 4;
+        int expectedResult = 8;
         int result = calculator.mul(a,aa);
         Assert.assertEquals(expectedResult, result);
     }
 
     @Test
     public void test_per() {
-        int a = 2;
+        int a = 1;
         int b = 5;
-        int expectedResult = 2;
+        int expectedResult = 1;
         int result = calculator.per(a,b);
         Assert.assertEquals(expectedResult, result);
     }
